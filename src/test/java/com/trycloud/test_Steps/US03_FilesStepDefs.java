@@ -1,8 +1,8 @@
-package com.trycloud.step_definitions;
+package com.trycloud.test_Steps;
 
-import com.trycloud.pages.DashboardPage;
-import com.trycloud.pages.FilesPage;
-import com.trycloud.pages.LoginPage;
+import com.trycloud.pages_Locators.DashboardPage;
+import com.trycloud.pages_Locators.FilesPage;
+import com.trycloud.pages_Locators.LoginPage;
 import com.trycloud.utility.BrowserUtil;
 import com.trycloud.utility.ConfigReader;
 import com.trycloud.utility.Driver;
@@ -11,7 +11,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class FilesStepDefs {
+public class US03_FilesStepDefs {
     FilesPage filesPage = new FilesPage();
 
     @Given("user on the dashboard page")

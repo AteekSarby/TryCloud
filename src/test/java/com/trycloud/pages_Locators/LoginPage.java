@@ -1,4 +1,4 @@
-package com.trycloud.pages;
+package com.trycloud.pages_Locators;
 
 import com.trycloud.utility.ConfigReader;
 import com.trycloud.utility.Driver;

@@ -1,7 +1,7 @@
-package com.trycloud.step_definitions;
+package com.trycloud.test_Steps;
 
 import com.github.javafaker.Faker;
-import com.trycloud.pages.FilesPage;
+import com.trycloud.pages_Locators.FilesPage;
 import com.trycloud.utility.BrowserUtil;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,7 +9,7 @@ import org.junit.Assert;
 
 import java.util.List;
 
-public class CreateFolderStepDefs {
+public class US07_CreateFolderStepDefs {
     FilesPage filesPage=new FilesPage();
     String expectedName;
 

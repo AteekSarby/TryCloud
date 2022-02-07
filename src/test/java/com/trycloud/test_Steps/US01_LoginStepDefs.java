@@ -1,6 +1,6 @@
-package com.trycloud.step_definitions;
+package com.trycloud.test_Steps;
 
-import com.trycloud.pages.LoginPage;
+import com.trycloud.pages_Locators.LoginPage;
 import com.trycloud.utility.ConfigReader;
 import com.trycloud.utility.Driver;
 import io.cucumber.java.en.Given;
@@ -8,7 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class LoginStepDefs {
+public class US01_LoginStepDefs {
     LoginPage loginPage = new LoginPage();
 
     @Given("user on the login page")

@@ -1,4 +1,4 @@
-package com.trycloud.step_definitions;
+package com.trycloud.test_Steps;
 
 import com.trycloud.utility.Driver;
 import io.cucumber.java.After;
@@ -30,6 +30,12 @@ public class Hooks {
             byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
 
             scenario.attach(screenshot,"image/png","failure_ss");
+        }
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
         Driver.closeBrowser();
 

@@ -14,14 +14,6 @@ Feature: As a user, I should be able to remove files from favorites
 
 
 
-  Scenario: As a user, I should be able to upload a file from Files
-    When user clicks the add icon on top
-    And user  uploads file with upload file option
-    Then  Verify the file is displayed on the page
-
-
-
-
 
 
 

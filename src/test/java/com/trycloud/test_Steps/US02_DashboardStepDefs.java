@@ -1,7 +1,7 @@
-package com.trycloud.step_definitions;
+package com.trycloud.test_Steps;
 
-import com.trycloud.pages.DashboardPage;
-import com.trycloud.pages.LoginPage;
+import com.trycloud.pages_Locators.DashboardPage;
+import com.trycloud.pages_Locators.LoginPage;
 import com.trycloud.utility.BrowserUtil;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,7 +9,7 @@ import org.junit.Assert;
 
 import java.util.List;
 
-public class DashboardStepDefs {
+public class US02_DashboardStepDefs {
 
     @When("user  log in with valid credentials")
     public void user_log_in_with_valid_credentials() {

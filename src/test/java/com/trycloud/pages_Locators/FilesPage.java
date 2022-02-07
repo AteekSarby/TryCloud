@@ -1,4 +1,4 @@
-package com.trycloud.pages;
+package com.trycloud.pages_Locators;
 
 import com.github.javafaker.Faker;
 import com.trycloud.utility.BrowserUtil;
@@ -24,7 +24,7 @@ public class FilesPage {
     @FindBy(xpath = "//label[@for='select_all_files']")
     public WebElement selectAllCbox;
 
-    @FindBy(xpath = "//td[@class='selection']/input ")
+    @FindBy(xpath = "//td[@class='selection']/input")
     public List<WebElement> allCboxInFiles;
 
     @FindBy(xpath = "//div/div[contains(@style,'folder')]")
